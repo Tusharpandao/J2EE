@@ -15,6 +15,7 @@ public class InsertDemo1 {
 	private static FileInputStream file;
 	private static String filePath = "D:\\WEJA2\\jdbc\\resources\\db_info.properties";
 	private static String query;
+	 
 	
 	public static void main(String[] args) {
 		try {
