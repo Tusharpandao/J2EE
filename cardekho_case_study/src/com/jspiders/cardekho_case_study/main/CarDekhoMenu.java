@@ -17,7 +17,7 @@ public class CarDekhoMenu {
 
 	}
 
-	private static void carDekhoMenu() {
+	public static void carDekhoMenu() {
 		System.out.println("===========MENU==========\n" 
 							+ "1. Add/Remove Car Details \n" 
 							+ "2. Search Car Details \n"

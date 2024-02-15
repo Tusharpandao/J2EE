@@ -42,7 +42,7 @@ public class CarOperation {
 			Scanner scanner = new Scanner(System.in);
 			int choice = scanner.nextInt();
 			for (Car car : cars) {
-				if (car.getCar_id() == choice) {
+				if (car.getCarId() == choice) {
 					car1 = car;
 				}
 			}
@@ -63,8 +63,8 @@ public class CarOperation {
 			System.out.println("ID\t" + "Name\t" + "Brand\t" + "Fuel Type\t" + "Price");
 			System.out.println("=======================================================");
 			for (Car car : cars) {
-				System.out.println(car.getCar_id() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
-						+ car.getFuel_type() + "\t\t" + car.getPrice());
+				System.out.println(car.getCarId() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
+						+ car.getFuelType() + "\t\t" + car.getPrice());
 			}
 		}
 	}
@@ -87,8 +87,8 @@ public class CarOperation {
 			System.out.println("ID\t" + "Name\t" + "Brand\t" + "Fuel Type\t" + "Price");
 			System.out.println("=======================================================");
 			for (Car car : allCars) {
-				System.out.println(car.getCar_id() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
-						+ car.getFuel_type() + "\t\t" + car.getPrice());
+				System.out.println(car.getCarId() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
+						+ car.getFuelType() + "\t\t" + car.getPrice());
 			}
 		}
 	}
@@ -111,8 +111,8 @@ public class CarOperation {
 			System.out.println("ID\t" + "Name\t" + "Brand\t" + "Fuel Type\t" + "Price");
 			System.out.println("=======================================================");
 			for (Car car : allCars) {
-				System.out.println(car.getCar_id() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
-						+ car.getFuel_type() + "\t\t" + car.getPrice());
+				System.out.println(car.getCarId() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
+						+ car.getFuelType() + "\t\t" + car.getPrice());
 			}
 		}
 	}
@@ -127,7 +127,7 @@ public class CarOperation {
 			String fuel_type = scanner.next();
 			List<Car> allCars = new ArrayList<Car>();
 			for (Car car : cars) {
-				if (car.getFuel_type().equalsIgnoreCase(fuel_type)) {
+				if (car.getFuelType().equalsIgnoreCase(fuel_type)) {
 					allCars.add(car);
 				}
 			}
@@ -135,8 +135,8 @@ public class CarOperation {
 			System.out.println("ID\t" + "Name\t" + "Brand\t" + "Fuel Type\t" + "Price");
 			System.out.println("=======================================================");
 			for (Car car : allCars) {
-				System.out.println(car.getCar_id() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
-						+ car.getFuel_type() + "\t\t" + car.getPrice());
+				System.out.println(car.getCarId() + "\t" + car.getName() + "\t" + car.getBrand() + "\t"
+						+ car.getFuelType() + "\t\t" + car.getPrice());
 			}
 		}
 	}
@@ -149,7 +149,7 @@ public class CarOperation {
 			Scanner scanner = new Scanner(System.in);
 			int car_id = scanner.nextInt();
 			for (Car car : cars) {
-				if (car.getCar_id() == car_id) {
+				if (car.getCarId() == car_id) {
 					System.out.print("Enter new car name : ");
 					car.setName(scanner.next());
 					System.out.print("Enter new car brand : ");

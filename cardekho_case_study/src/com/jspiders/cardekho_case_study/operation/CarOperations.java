@@ -102,7 +102,7 @@ public void searchCarDetails() {
 	}
 	break;
 	case 4:
-		CarDekhoMenu.menu();
+		CarDekhoMenu.carDekhoMenu();
 		break;
 
 	default:
@@ -145,7 +145,7 @@ public void updateCarDetails() {
 	}
 	break;
 	case 2:
-		CarDekhoMenu.menu();
+		CarDekhoMenu.carDekhoMenu();
 		break;		
 	default:
 		System.out.println("invalid choice \n please choose correct option\n Try Again\n");

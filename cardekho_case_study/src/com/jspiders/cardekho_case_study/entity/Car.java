@@ -14,7 +14,7 @@ public class Car {
 	public Car() {
 		
 	}
-	public int getCar_id() {
+	public int getCarId() {
 		return car_id;
 	}
 	public void setCar_id(int car_id) {
@@ -32,7 +32,7 @@ public class Car {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	public String getFuel_type() {
+	public String getFuelType() {
 		return fuel_type;
 	}
 	public void setFuel_type(String fuel_type) {
