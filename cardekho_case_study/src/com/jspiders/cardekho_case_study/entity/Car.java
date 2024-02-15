@@ -8,6 +8,12 @@ public class Car {
 	private String fuel_type;
 	private double price;
 	
+	public Car(int car_id2, String name2, String brand2, String model, String fuelType, double price2) {
+		// TODO Auto-generated constructor stub
+	}
+	public Car() {
+		
+	}
 	public int getCar_id() {
 		return car_id;
 	}
