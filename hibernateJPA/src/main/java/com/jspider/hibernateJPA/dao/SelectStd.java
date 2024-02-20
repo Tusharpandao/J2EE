@@ -1,29 +1,22 @@
 package com.jspider.hibernateJPA.dao;
 
-
 import com.jspider.hibernateJPA.dto.StudentDTO;
 
-public class StudentDAO {
-	
+public class SelectStd  {
 	
 	public static void main(String[] args) {
 		
+		
 		DataConnections connection=new DataConnections();
 		
-		StudentDTO student=new StudentDTO();
-		student.setName("tusharr");
-		student.setEmail("tushar@gmail.com");
-		student.setMobile(1234567890l);
-		student.setAge(23);
 		connection.openConnection();
 		connection.entityTransaction.begin();
 		
-		connection.entityManager.persist(student);
+		StudentDTO student = connection.entityManager.find(StudentDTO.class, 1);
 		
-		
+		System.out.println(student);
 		connection.entityTransaction.commit();
 		connection.closeConnection();
 	}
-	
 
 }
