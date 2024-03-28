@@ -7,7 +7,7 @@ String msg = (String) request.getAttribute("msg");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>login</title>
 <style type="text/css">
  *{
         box-sizing: border-box;
@@ -104,7 +104,7 @@ legend {
 
 		</fieldset>
 		
-		<a href="http://localhost:8080/college_management_mvc/createAccount">Create
+		<a href="http://4.240.107.151:8081/college_management_system/createAccount">Create
 			Account</a>
 	</div>
 

@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>MIT Home</title>
 <style type="text/css">
 body {
 	background-color: #a2d8b2;
@@ -19,7 +19,7 @@ body {
 </head>
 <body>
 <div align="center">
-	<h1>welcome to  Deogiri College</h1>
+	<h1>welcome to  MIT College</h1>
 </div>
 
 </body>

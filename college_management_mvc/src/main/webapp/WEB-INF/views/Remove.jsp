@@ -11,7 +11,7 @@ String msg = (String) request.getAttribute("msg");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Remove</title>
 <style type="text/css">
  *{
         box-sizing: border-box;

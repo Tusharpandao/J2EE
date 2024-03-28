@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+
 <style type="text/css">
 body {
 	background-color: #56bcdb;

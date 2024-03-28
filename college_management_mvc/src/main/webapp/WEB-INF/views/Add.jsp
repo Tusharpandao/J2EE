@@ -11,7 +11,7 @@ String msg = (String) request.getAttribute("msg");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>MIT Add Student</title>
 <style type="text/css">
  
 form {
